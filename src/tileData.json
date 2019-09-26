@@ -1,1 +1,50 @@
-[{ "name": "TesterOne" }, { "name": "TesterTwo" }]
+[
+  {
+    "icon": "fas fa-skull-crossbones fa-10x"
+  },
+  {
+    "icon": "fas fa-radiation-alt fa-10x"
+  },
+  {
+    "icon": "fas fa-ghost fa-10x"
+  },
+  {
+    "icon": "fas fa-gamepad fa-10x"
+  },
+  {
+    "icon": "fas fa-exclamation-circle fa-10x"
+  },
+  {
+    "icon": "fas fa-dice-d6 fa-10x"
+  },
+  {
+    "icon": "fas fa-dice-d20 fa-10x"
+  },
+  {
+    "icon": "fas fa-chess-rook fa-10x"
+  },
+  {
+    "icon": "fas fa-chess-queen fa-10x"
+  },
+  {
+    "icon": "fas fa-chess-pawn fa-10x"
+  },
+  {
+    "icon": "fas fa-chess-knight fa-10x"
+  },
+  {
+    "icon": "fas fa-chess-king fa-10x"
+  },
+  {
+    "icon": "fas fa-chess-bishop fa-10x"
+  },
+  {
+    "icon": "fas fa-spider fa-10x"
+  },
+  {
+    "icon": "fas fa-crow fa-10x"
+  },
+  {
+    "icon": "fas fa-cloud-moon fa-10x"
+  }
+]

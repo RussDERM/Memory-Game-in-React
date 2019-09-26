@@ -1,0 +1,7 @@
+.gameContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  max-width: 1000px;
+}
