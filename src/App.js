@@ -11,7 +11,7 @@ function App() {
   return (
     <Container>
       <NavbarComponent />
-      <JumbotronComponent />
+      {/* <JumbotronComponent /> */}
       <GameContainerComponent />
     </Container>
   );

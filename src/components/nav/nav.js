@@ -9,7 +9,7 @@ import "./nav.css";
 
 function NavbarComp() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" className="navStyle">
       <Navbar.Brand href="#home">Concentrate</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
