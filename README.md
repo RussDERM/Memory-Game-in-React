@@ -1,6 +1,7 @@
 # Memory Game
 
-This is a simple memory game that demonstrates the use of React
+This is a simple memory game that demonstrates the use of React.
+You can view it [here](https://russderm.github.io/Memory-Game-in-React/)
 
 ## Installation and Use
 
