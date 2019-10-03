@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Memory-Game-in-React/index.html/static/css/main.5e8c9ed2.chunk.css",
-    "main.js": "/Memory-Game-in-React/index.html/static/js/main.f6c86d3c.chunk.js",
-    "main.js.map": "/Memory-Game-in-React/index.html/static/js/main.f6c86d3c.chunk.js.map",
-    "runtime~main.js": "/Memory-Game-in-React/index.html/static/js/runtime~main.cec6f22f.js",
-    "runtime~main.js.map": "/Memory-Game-in-React/index.html/static/js/runtime~main.cec6f22f.js.map",
-    "static/css/2.0624914a.chunk.css": "/Memory-Game-in-React/index.html/static/css/2.0624914a.chunk.css",
-    "static/js/2.2190963a.chunk.js": "/Memory-Game-in-React/index.html/static/js/2.2190963a.chunk.js",
-    "static/js/2.2190963a.chunk.js.map": "/Memory-Game-in-React/index.html/static/js/2.2190963a.chunk.js.map",
-    "index.html": "/Memory-Game-in-React/index.html/index.html",
-    "precache-manifest.551316ded8470883ad4ac1d8cd2d35a3.js": "/Memory-Game-in-React/index.html/precache-manifest.551316ded8470883ad4ac1d8cd2d35a3.js",
-    "service-worker.js": "/Memory-Game-in-React/index.html/service-worker.js",
-    "static/css/2.0624914a.chunk.css.map": "/Memory-Game-in-React/index.html/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.5e8c9ed2.chunk.css.map": "/Memory-Game-in-React/index.html/static/css/main.5e8c9ed2.chunk.css.map"
+    "main.css": "/Memory-Game-in-React/static/css/main.5e8c9ed2.chunk.css",
+    "main.js": "/Memory-Game-in-React/static/js/main.121f6bf4.chunk.js",
+    "main.js.map": "/Memory-Game-in-React/static/js/main.121f6bf4.chunk.js.map",
+    "runtime~main.js": "/Memory-Game-in-React/static/js/runtime~main.08273491.js",
+    "runtime~main.js.map": "/Memory-Game-in-React/static/js/runtime~main.08273491.js.map",
+    "static/css/2.0624914a.chunk.css": "/Memory-Game-in-React/static/css/2.0624914a.chunk.css",
+    "static/js/2.2190963a.chunk.js": "/Memory-Game-in-React/static/js/2.2190963a.chunk.js",
+    "static/js/2.2190963a.chunk.js.map": "/Memory-Game-in-React/static/js/2.2190963a.chunk.js.map",
+    "index.html": "/Memory-Game-in-React/index.html",
+    "precache-manifest.ce5934812465316f20825d49d7d5ec11.js": "/Memory-Game-in-React/precache-manifest.ce5934812465316f20825d49d7d5ec11.js",
+    "service-worker.js": "/Memory-Game-in-React/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/Memory-Game-in-React/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.5e8c9ed2.chunk.css.map": "/Memory-Game-in-React/static/css/main.5e8c9ed2.chunk.css.map"
   }
 }
