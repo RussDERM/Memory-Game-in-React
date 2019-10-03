@@ -2,8 +2,10 @@
   "name": "memory-game-in-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://russderm.github.io/Memory-Game-in-React",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^2.1.1",
     "randomcolor": "^0.5.4",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.12",
@@ -11,6 +13,8 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
