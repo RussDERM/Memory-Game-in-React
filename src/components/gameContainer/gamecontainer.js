@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import tileData from "../../tileData.json";
+import tiles from "../../tiles.json";
 import Tile from "../tile/tile";
 import "./gameContainer.css";
 
@@ -10,28 +10,28 @@ import randomColor from "randomcolor";
 const color = randomColor();
 
 class GameContainerComponent extends React.Component {
-  state = { tileData, score: 0, highscore: 0 };
+  state = { tiles, score: 0, highscore: 0 };
 
   // *Logic for click event
-  handleClick = id => {
-    console.log("click! " + id);
-    // Find id of clicked item and iterate count
-    this.state.tileData.find((clicked, i) => {
-      if (clicked.id === id) {
-        // if count = 0, iterate, else game over
-        if (tileData[i].count === 0) {
-          tileData[i].count = tileData[i].count + 1;
-          this.setState({ score: this.state.score + 1 }, function() {
-            console.log(this.state.score);
-          });
+  handleClick = key => {
+    console.log("click! " + key);
+    // Find key of clicked item and iterate count
+    this.state.tiles.find((tile, i) => {
+      if (tile.id === key) {
+        if (tiles[i].count === 0) {
+          // if count = 0, iterate, else game over
+          tiles[i].count = tiles[i].count + 1;
+          this.setState({ score: this.state.score + 1 }, function() {});
           // Re-order tiles for next turn
-          this.state.tileData.sort(() => Math.random() - 0.5);
+          this.state.tiles.sort(() => Math.random() - 0.5);
           return true;
         } else {
           // call gameOver function
           this.gameOver();
+          console.log("game over");
         }
       }
+      // return true;
     });
   };
 
@@ -43,37 +43,37 @@ class GameContainerComponent extends React.Component {
       this.setState({ highscore: this.state.score });
     }
     // reset count on all tiles
-    this.state.photos.forEach(photo => {
+    this.state.tiles.forEach(photo => {
       photo.count = 0;
     });
+    alert("Game Over!");
+    // set game score back to 0
+    this.setState({ score: 0 });
+    return true;
   };
 
-  // handleClick = id => {
-  //   // this.state.tileData.find((o, i) => {
-  //   //   if (o.id === id) {
-  //   //     console.log("match!");
-  //   //   } else {
-  //   //     console.log("no match!");
-  //   //   }
-  //   // });
-  //   console.log("THIS TILE'S ID IS: " + id);
-  // };
-
   render() {
-    const tiles = this.state.tileData;
+    const tiles = this.state.tiles;
     return (
-      <Container className="gameContainer">
-        {tiles.map(tiles => (
-          <Tile
-            id={tiles.id}
-            icon={tiles.icon}
-            count={tiles.count}
-            color={color}
-            // function
-            handleClick={this.handleClick}
-          />
-        ))}
-      </Container>
+      <>
+        <Container className="score">
+          <div className="scoreTile">SCORE: {this.state.score}</div>
+          <div className="scoreTile">HIGHSCORE: {this.state.highscore}</div>
+        </Container>
+        <Container className="gameContainer">
+          {tiles.map(tiles => (
+            <Tile
+              key={tiles.id}
+              id={tiles.id}
+              icon={tiles.icon}
+              count={tiles.count}
+              color={color}
+              // function
+              handleClick={this.handleClick}
+            />
+          ))}
+        </Container>
+      </>
     );
   }
 }
