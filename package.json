@@ -1,7 +1,7 @@
 {
   "name": "memory-game-in-react",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://russderm.github.io/Memory-Game-in-React",
   "dependencies": {
     "bootstrap": "^4.3.1",
@@ -13,7 +13,6 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
