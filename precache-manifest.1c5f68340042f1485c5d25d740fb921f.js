@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2c37f14c5bbdc992c516a087edeb32d",
+    "revision": "1d5e152069342e1a0febffdd3633497e",
     "url": "/Memory-Game-in-React/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Memory-Game-in-React/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "a6b76ecf4acb797eab1a",
+    "revision": "4868010fc3eb7869fd43",
     "url": "/Memory-Game-in-React/static/css/main.5e8c9ed2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Memory-Game-in-React/static/js/2.2190963a.chunk.js"
   },
   {
-    "revision": "a6b76ecf4acb797eab1a",
-    "url": "/Memory-Game-in-React/static/js/main.121f6bf4.chunk.js"
+    "revision": "4868010fc3eb7869fd43",
+    "url": "/Memory-Game-in-React/static/js/main.b3df47ff.chunk.js"
   },
   {
     "revision": "3bd60430307fd769148b",
