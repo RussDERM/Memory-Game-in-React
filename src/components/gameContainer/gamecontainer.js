@@ -35,7 +35,9 @@ class GameContainerComponent extends React.Component {
         } else {
           // call gameOver function
           this.gameOver();
+          this.setState({ score: 0 });
           console.log("game over");
+          return true;
         }
       }
     });
@@ -55,7 +57,6 @@ class GameContainerComponent extends React.Component {
     this.state.tiles.sort(() => Math.random() - 0.5);
     alert("Game Over!");
     // set game score back to 0
-    this.setState({ score: 0 });
     return true;
   };
 
